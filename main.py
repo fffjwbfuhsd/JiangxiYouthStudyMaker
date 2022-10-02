@@ -6,13 +6,13 @@ from anti_useragent import UserAgent
 
 # 以下为所需的数据，注意引号别删了
 # 必填 团委组织ID号，详见README
-nid = "N00...."
+nid = "N0013000610081066"
 # 非必填，社区（村）/班级/单位（部门），详见README
 subOrg = ""
 # 必填 姓名/学号/工号
-cardNo = "...."
+cardNo = "陈嘉铭"
 # 非必填 如果你会抓包,那就填上你的openid保险
-openId = ""
+openId = "oc2p4jtLtmqPW5SPd7DtxYBpus6I"
 
 
 def makeHeader(openid=openId):
